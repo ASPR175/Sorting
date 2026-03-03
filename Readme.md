@@ -17,12 +17,15 @@ The goal of this project is to understand algorithmic tradeoffs, time complexity
 
 # Complexity Overview
 
-Algorithm	  Best Case	   Average Case	Worst Case	Space Complexity	Stable
-Bubble  Sort	O(n)	    O(n²)	    O(n²)	    O(1)	            Yes
-Selection Sort	O(n²)	    O(n²)	    O(n²)	    O(1)	            No
-Insertion Sort	O(n)	    O(n²)	    O(n²)	    O(1)	            Yes
-Merge Sort	    O(n log n)	O(n log n)	O(n log n)	O(n)	            Yes
-Quick Sort	    O(n log n)	O(n log n)	O(n²)	    O(log n)*	        No
+---------------|------------|-----------------|------------|----------------------|--------|
+Algorithm	   | Best Case	|   Average Case  |	Worst Case |	Space Complexity  |	Stable |
+---------------|------------|-----------------|------------|----------------------|--------|
+Bubble  Sort   |	O(n)	|    O(n²)	      |O(n²)	   |    O(1)	          |  Yes   | 
+Selection Sort |	O(n²)	|    O(n²)	      |O(n²)	   |    O(1)	          |  No    | 
+Insertion Sort |	O(n)	|    O(n²)	      |O(n²)	   |    O(1)	          |  Yes   |
+Merge Sort	   | O(n log n)	|    O(n log n)	  |O(n log n)  |	O(n)	          |  Yes   |
+Quick Sort	   | O(n log n)	|    O(n log n)	  |O(n²)	   |    O(log n)*	      |  No    |
+---------------|------------|-----------------|------------|----------------------|--------|
 
 *Quick Sort space depends on recursion depth.
 
